@@ -415,7 +415,7 @@ int main(int argc, char* argv[]) {
             std::cerr << "Error: " << e.what() << std::endl;
         }
     }
-    OseroAI game(boardSize, startingPlayer, depthLimit); // WHITE(AI) starting
+    OseroAI game(boardSize, startingPlayer, depthLimit); 
     game.startGame(); // Start the game with initial setup
     game.go_to_game(); // Start the game loop
     return 0;
