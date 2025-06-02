@@ -1,3 +1,9 @@
+/*
+
+  ミニマックス法を使って探索
+  αβ法は使っていないので非効率的
+
+*/
 #include <iostream>
 #include <array>
 #include <vector>
